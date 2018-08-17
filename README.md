@@ -10,8 +10,12 @@ In your terminal run the following commands:
 
 `npm install`
 
+### Check out a new branch for your solutions
+`git checkout -b beyonce-solutions`
+
 ### Running tests
-`npm test`
+`npm test test/beyonce-test.js`
+
 
 
 
