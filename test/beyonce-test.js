@@ -22,13 +22,13 @@ describe('Answers to Beyonce Problem set', () => {
     expect(fiercenessList).to.deep.equal([ 7, 10, 10, 10, 7, 9 ]);
   })
 
-  it('should give me a song where Beyonce is not wearing a bodysuit', () => {
+  it.skip('should give me a song where Beyonce is not wearing a bodysuit', () => {
     const song = beyonceMethods.getSongNoBodysuit();
 
     expect(song.signatureLook).to.not.have.string('bodysuit');
   })
 
-  it('should give me all the songs where Beyonce is wearing a bodysuit', () => {
+  it.skip('should give me all the songs where Beyonce is wearing a bodysuit', () => {
     const bodysuitSongs = beyonceMethods.getBodysuitSongs();
 
     expect(bodysuitSongs).to.deep.equal([ 
@@ -69,7 +69,7 @@ describe('Answers to Beyonce Problem set', () => {
     ])
   })
 
-  it('should create an array of all songs where the fierceness is greater than 7', () => {
+  it.skip('should create an array of all songs where the fierceness is greater than 7', () => {
     const fierceSongs = beyonceMethods.getFierceSongs();
 
     expect(fierceSongs).to.deep.equal([ 
@@ -121,13 +121,13 @@ describe('Answers to Beyonce Problem set', () => {
     ])
   })
 
-  it('should find a song where Nicki Minaj is part of the group', () => {
+  it.skip('should find a song where Nicki Minaj is part of the group', () => {
     const nickiMinajSong = beyonceMethods.getNickiMinajSong();
 
     expect(nickiMinajSong.groupName).to.have.string('Nicki Minaj');
   })
 
-  it('should create an array with all songs that were not with a group', () => {
+  it.skip('should create an array with all songs that were not with a group', () => {
     const soloSongs = beyonceMethods.getSoloSongs();
 
     expect(soloSongs).to.deep.equal([ 
@@ -168,19 +168,19 @@ describe('Answers to Beyonce Problem set', () => {
     ])
   })
 
-  it('should sum up Beyonces fierceness value for all of her hit songs', () => {
+  it.skip('should sum up Beyonces fierceness value for all of her hit songs', () => {
     const totalFierceness = beyonceMethods.sumFierceness();
 
     expect(totalFierceness).to.equal(53)
   })
 
-  it('should get the average fierceness value for all of her hit songs to two decimal places', () => {
+  it.skip('should get the average fierceness value for all of her hit songs to two decimal places', () => {
     const avgFierceness = beyonceMethods.getAvgFierceness();
 
     expect(avgFierceness).to.equal(8.83)
   })
 
-  it('should create a hairstyles object, the value is a hairstyle and the value is a count of how many songs in which that hairstyle appeared', () => { 
+  it.skip('should create a hairstyles object, the value is a hairstyle and the value is a count of how many songs in which that hairstyle appeared', () => { 
     const hairstyles = beyonceMethods.createHairstyleObj();
 
     expect(hairstyles).to.equal({ 
