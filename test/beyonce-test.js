@@ -16,7 +16,7 @@ describe('Answers to Beyonce Problem set', () => {
     ]);
   })
 
-  it.skip('should create an array with all of Beyonce\'s fierceness ratings', () => {
+  it('should create an array with all of Beyonce\'s fierceness ratings', () => {
     const fiercenessList = beyonceMethods.getFiercenessList();
 
     expect(fiercenessList).to.deep.equal([ 7, 10, 10, 10, 7, 9 ]);
