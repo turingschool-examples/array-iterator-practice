@@ -80,7 +80,7 @@ describe('Answers to Fourteeners Problem set', () => {
   it.skip('should return the total number of routes in the front range', () => {
     const routeCount = fourteenerMethods.getFrontRangeRouteCount();
 
-    expect(routeCount).to.equal(21)
+    expect(routeCount).to.equal(20)
   })
 
   it.skip('should return an array of all of the peaks', () => {
