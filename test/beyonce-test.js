@@ -183,7 +183,7 @@ describe('Answers to Beyonce Problem set', () => {
   it.skip('should create a hairstyles object, the value is a hairstyle and the value is a count of how many songs in which that hairstyle appeared', () => { 
     const hairstyles = beyonceMethods.createHairstyleObj();
 
-    expect(hairstyles).to.equal({ 
+    expect(hairstyles).to.deep.equal({ 
       'straight': 1,
       'blonde': 4,
       'pink tips': 1,
